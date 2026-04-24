@@ -18,7 +18,7 @@ class State(TypedDict):
 
 # ── 2. 初始化模型（OpenAI 相容介面）────────────────────────────────────────────
 llm = ChatOpenAI(
-    model="Qwen/Qwen3.5-4B",
+    model="Qwen/Qwen3.5-9B",
     base_url="http://10.39.72.60:8000/v1",
     api_key="dummy",           # vLLM 不需要真實 API key
     temperature=0.7,
